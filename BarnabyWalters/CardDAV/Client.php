@@ -438,7 +438,15 @@ class Client
 
 		switch($result['http_code'])
 		{
+			case 200:
+				return $vcard_id;
+			break;
+				
 			case 201:
+				return $vcard_id;
+			break;
+				
+			case 204:
 				return $vcard_id;
 			break;
 
