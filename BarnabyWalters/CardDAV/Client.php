@@ -443,6 +443,7 @@ class Client
 			break;
 				
 			case 201:
+			case 204:
 				return $vcard_id;
 			break;
 				
